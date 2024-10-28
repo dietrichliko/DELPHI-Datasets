@@ -1,0 +1,643 @@
+group1,group2,channel,description
+4 Fermion,,4QEX202CRNOREC,"Extended Short DST simulation 99_a1 200 , CERN"
+4 Fermion,,4QEX202CRSTD,"Extended Short DST simulation 98_d2 189 , KARL"
+2 Fermion,,APACIC105,"Short DST simulation 93d  done at ecm=91.25 GeV , WUPP"
+2 Fermion,,ARIA,"XShortDST zgqq generator with tuned ARIADNE, Pythia 6.131    KARL; "
+2 Fermion,,BABA,LongDST Bhabha (barrel only); Sim. of 93 (gas) ANA93C Fix 1; BASTA
+2 Fermion,,BAFO,LongDST Bhabha (barrel+forw); Sim. of 95(liq) ANA95C Fix 2  ; BAST
+4 Fermion,,BBBB,XShortDST e+ e- --> ZZ -> bbbb PYTHIA6.131 DELPHI Mar 95 tune RAL; 
+2 Fermion,,BBDS,ShortDST bbbar -> D*+' X -> D*+ pi+pi- X->(K-pi+)pi+pi+pi- X; BAST
+2 Fermion,,BBDT,ShortDST bbbar -> D*+' X -> D*+ pi+pi- X->(K3pi)pi+ pi+pi- X; BAST
+4 Fermion,,BBEE,e+e- -> eebb EXCALIBUR 2.01 (PYTHIA 6.125 ch.11110505        SNAK; 
+2 Fermion,,BBEL,ShortDST BBbar -> el + X          ; Sim of 91 ANA91F Fix 1 ; BASTA
+2 Fermion,,BBKZ,XShortDST Z0 --> bbbar  with Koralz  ; Sim. 97 ANA97A Fix 1 ; RUTH 
+2 Fermion,,BBMM,e+e- -> EXCALIBUR 2.01 (PYTHIA 6.125) chan. 13130505         SNAK; 
+2 Fermion,,BBMU,ShortDST BBbar -> mu + X          ; Sim of 91 ANA91F Fix 1 ; BASTA
+2 Fermion,,BBPS,ShortDST BBbar (b life 1.6); Sim. of 92 (gas) ANA92D Fix 2 ; BASTA
+2 Fermion,,BBPY,"LongDST Z0Gamma, Z0-->bbbar;        Sim. of 96 ANA96E Fix 1 ; BAST"
+2 Fermion,,BBQQ,XShortDST e+e- -> bbbar qqbar        ; Sim. 97 ANA97A Fix 1 ; RUTH
+2 Fermion,,BBSA,B0s decays --> Ds+ 1nu X with Ds+-->phi pi; phi-->K+ K-     ; BAST
+2 Fermion,,BBSB,B0s decays --> Ds+ 1 nu X with Ds+-->K*0 K; K*0-->K- pi+    ; BAST
+2 Fermion,,BBSC,B0s decays --> Ds+ 1 nu X with Ds+-->KOs K                  ; BAST
+2 Fermion,,BBSD,B decays --> Ds X with Ds-->phi pi; phi-->K+ K-             ; BAST
+2 Fermion,,BBSE,B decays -->Ds X with Ds-->K*0 K; K*0-->K- pi+ (92E Gas)    ; BAST
+2 Fermion,,BBSF,B decays -->Ds X with Ds+ -->K0s K                      Gas  ;BAST
+2 Fermion,,BBSG,ShortDST B0s decays->Ds+l nu X with Ds->Phi pi pio;        ; BAST
+2 Fermion,,BBSH,B0s decays -->Ds+ l nu X with Ds-->Phi l X; pji-->K+ K-     ; BAST
+4 Fermion,,BBTT,e+e- -> tautaubb EXCALIBUR 2.01 (PYTHIA 6.125) ch.15150505   SNAK; 
+2 Fermion,,BCEL,ShortDST BBbar -> c -> el + X     ; Sim of 91 ANA91F Fix 1 ; BASTA
+2 Fermion,,BCMU,ShortDST BBbar -> c -> mu + X     ; Sim of 91 ANA91F Fix 1 ; BASTA
+4 Fermion,,BDK01EEEE,"Extended Short DST simulation 98_e1 done at ecms=188.6 , RAL"
+4 Fermion,,BDK02EEEE,"Extended Short DST simulation 99_e1 done at ecms=195.5 , Lyon"
+4 Fermion,,BDKEEEELT1GEV,"Extended Short DST simulation 97_g1 done at ecms=182.7 , CERN"
+4 Fermion,,BDKRC01EEMM,"Extended Short DST simulation 98_e1 done at ecms=188.6 , RAL"
+4 Fermion,,BDKRC01EETT,"Extended Short DST simulation 98_e1 done at ecms=188.6 , RAL"
+4 Fermion,,BDKRC02EEMM,"Extended Short DST simulation 97_g1 done at ecms=182.7 , RAL"
+4 Fermion,,BDKRC02EEMMSPEC,"Extended Short DST simulation 99_e1 done at ecms=199.5 , CERN"
+4 Fermion,,BDKRC02EETT,"Extended Short DST simulation 97_g1 done at ecms=182.7 , RAL"
+4 Fermion,,BDKRCEEMMLT1GEV,"Extended Short DST simulation 97_g1 done at ecms=182.7 , CERN"
+2 Fermion,,BDLX,"ShortDST bbbar decays with b --> cbar --> 1 from D-,Ds,D0bar; BAST"
+2 Fermion,,BDPL,ShortDST bbbar decays with bbar -> l lambdaC Nbar X -> l X  ; BAST
+2 Fermion,,BDSP,B decays with B-->D* p X and D*+- -->D0 pi+- D0-->K+- pi+- ; BAST
+2 Fermion,,BDSS,ShortDST bbbar --> D**0 X --> D*+ pi- X--> (K-pi+)pi+ pi- X ; BAST
+2 Fermion,,BDST,ShortDST bbbar --> D**0 X --> D*+ pi- X--> (K3pi)pi+ pi- X  ; BAST
+2 Fermion,,BHFO,XShortDST e+ e- -> e+ e- + 2 or more gammas                   RAL;    
+2 Fermion,,BHWI,XShortDST BHWIDE  ANASTASIE RS                               SNAK;
+2 Fermion,,BHWIDE101,"raw data simulation raw data  done at ecm=91.25 GeV , CERN"
+2 Fermion,,BHWIDE101_E200,"Full DST/Delana output simulation 99_a 200 , CERN"
+2 Fermion,,BHWIDE101_E91.25,"Full DST/Delana output simulation 97g  done at ecm=91.25 GeV , CERN"
+2 Fermion,,BLBA,ShortDST b-baryons --> l p X (pl and pp>3 GeV)             ; BAST
+2 Fermion,,BLBB,b-baryons --> lepton lambda X                               ; BAST
+2 Fermion,,BPSK,B decays with B--> psi K0L  and psi --> e+e- or --> mu+mu- ; SNAK
+2 Fermion,,BPSX,B decays with B--> psi X  and psi --> e+e-  or --> mu+mu-  ; SNAK
+2 Fermion,,CCDS,ShortDST ccbar -> D*+' X -> D*+ pi+pi-X ->(K-pi+)pi+pi+pi- X; BAST
+2 Fermion,,CCDT,ShortDST ccbar -> D*+' X -> D*+ pi+pi- X ->(K3pi)pi+pi+pi- X; BAST
+2 Fermion,,CCEL,ShortDST CCbar -> el + X          ; Sim of 91 ANA91F Fix 1 ; BASTA
+2 Fermion,,CCMU,ShortDST CCbar -> mu + X          ; Sim of 91 ANA91F Fix 1 ; BASTA
+2 Fermion,,CCPS,ShortDST CCbar (b life 1.6); Sim. of 92 (gas) ANA92D Fix 2 ; BASTA
+2 Fermion,,CDSS,ShortDST ccbar --> D**0 X --> D*+ pi- X--> (K-pi+)pi+ pi- X ; BAST
+2 Fermion,,CDST,ShortDST ccbar --> D**0 X --> D*+ pi- X--> (K3pi)pi+ pi- X  ; BAST
+Susy,,CHARSUSY,SUSYGEN212 charginos  with different SUSY parameters Extended Short DST simulation a0_s1 207 
+Susy,,CLSP,"XShortDST e+e- --> stop+stop, stop --> c+lsp                 WIEN;"
+2 Fermion,,CMPT,"LongDST Compton, e e -->e e + gamma      :     ANA96E Fix 1 ; RUTH"
+Higgs,,CSCS,XShortDST e+e- --> H+H- --> cscs          HZHA03             SACL; 
+Higgs,,CSTN,XShortDST e+e- --> H+H- --> cstaunu       HZHA03             SACL; 
+2 Fermion,,DSFB,ShortDST C decays with DS --> phi pi and phi -- K+ K-        ;BAST
+2 Fermion,,DSFC,C decays with DS --> phi pi and phi --> K+ K-    (94C2)    ; BAST
+2 Fermion,,DSKB,ShortDST B decays with DS --> K*0 and K*0 --> K+ pi-         ;BAST
+2 Fermion,,DSKC,C decays with DS --> K*0 K and K*0 --> K+ pi-    (94C2)    ; BAST
+2 Fermion,,DSKS,ShortDST D+s1 -> D* + K0 -> (k-pi+)pi + K0;  Sim.94  Fix 2  ; BAST   
+2 Fermion,,DSSA,B decays with D**0 -->D*+ -->D0 -->K0s pi+ pi- Gas 92E      ; BAST
+2 Fermion,,DSSB,B decays with D**0 -->D*+ -->D+ -->K- pi+ pi-    Liq 92E    ; BAST
+2 Fermion,,DSSC,B decays with D**0 -->D*+ -->D0 -->K-  pi+     Gas 92E      ; BAST
+2 Fermion,,DSSD,"B decays with D+,D** ->D*+ -->D+ -->K- pi+ pi+   Liq 92E    ; BAST"
+2 Fermion,,DSSE,B decays with D** -->D*+ -->D0 -->K- pi+ pi+ pi+ Gas 92E    ; BAST
+2 Fermion,,DSSF,"B decays with D0,D*,D**  -->D0 -->K0s pi+ pi-    Gas 93D    ; BAST"
+2 Fermion,,DSSG,"B decays with D0,D*,D**  -->D0 -->K- pi+ pi+ pi- Gas 92E    ; BAST"
+2 Fermion,,DSSH,B decays with D0 -->K pi                          Gas 93D   ; BAST
+2 Fermion,,DSSI,B decays with D0 -->K- pi+ pi0                    Gas 93D   ; BAST
+2 Fermion,,DSSJ,B decays with D0 -->K- l+ nu                      Gas 93D   ; BAST
+2 Fermion,,DSSK,B decays with D+ -->K- pi+ l+ nu                  Gas 93D   ; BAST
+2 Fermion,,DSTD,ShortDST D decays with D-->tau nu and D-->mu nu            ; BAST
+2 Fermion,,DSUC,ShortDST ccbar ->D**0 + X -> D*+ pi- + X -->(k-pi+(pi0))pi+ pi-X
+2 Fermion,,DSVB,ShortDST bbbar ->D**0+ X -> D*+ pi- + X ->(k-pi+(pi0))pi+pi-X;BAST 
+2 Fermion,,DSWC,ShortDST ccbar->D*+' + X->D*+ pi-pi+ X ->(k-pi+(pi0))pi+ pi-pi+ X
+2 Fermion,,DSXC,ShortDST bbbar ->D*+'+ X ->D*+ pi-pi+ X ->(k-pi+(pi0))pi+pi-pi+ X 
+2 Fermion,,DYMU,LongDST mu+mu- (DYMU3     ); Sim. of 95B- DELANA(liq) Fix 1 ; RUTH
+4 Fermion,,EEEE,LongDST e+e- --> e e e e                                    ;RUTH
+EEGG,,EEGG,LongDST e+e- -> gam gam (QED);Sim. of 95C DELANA(liq) Fix 2 ; RUTH
+4 Fermion,,EEMM,LongDST e+e- --> e e mu mu                                  ;RUTH
+2 Fermion,,EEPY,LongDST e+e- -> e+e-       ; Sim. of 95B- DELANA(liq) Fix 1 ; RUTH
+4 Fermion,,EEQQ,LongDST e+e- --> e e q q                                    ;RUTH
+4 Fermion,,EETT,LongDST e+e- --> e e tau tau                                ;RUTH
+4 Fermion,,EEVE,LongDST e+e- --> e e nue nuebar                             ;RUTH
+4 Fermion,,EEVM,LongDST e+e- --> e e numu numubar                           ;RUTH
+2 Fermion,,EEVT,LongDST e+e- --> e e nutau nutaubar                         ;RUTH
+2 Fermion,,EMG2,XShortDST e+e- -> mu+ mu- e+ e-     GRC4F + JETSET 7.409     FARM; 
+2 Fermion,,EMGR,XShortDST e+e- -> mu+ mu- e+ e-     GRC4F + JETSET 7.409     FARM; 
+2 Fermion,,ETGR,XShortDST e+e- -> tau+ tau- e+ e-   GRC4F + JETSET 7.409     FARM; 
+2 Fermion,,EVEV,XShortDST e+ e- --> evev                                     MILA;
+2 Fermion,,EVMV,XShortDST e+e- -> e v m v                                    MILA; 
+2 Fermion,,EVQQ,LongDST e+e- --> ev q qbar   ;  Sim. 95C DELANA(liq) Fix 2 ; RUTH
+2 Fermion,,EVTV,XShortDST e+e- -> e v t v                                    MILA; 
+Higgs,,EX201TAUBBBB,"Extended Short DST simulation 99_a1 done at ecms=206.7 , CERN"
+Higgs,,EX202TAUBBBB,"Extended Short DST simulation 99_a1 done at ecms=206.7 , CERN"
+Higgs,,EX202TAUCORBBBB,"Extended Short DST simulation 99_a1 done at ecms=206.7 , CERN"
+2 Fermion,,EXCAL,mass production during the jeune genevois 2000  simulation   
+2 Fermion,,FFPY,LongDST e+e- -> Z0 + gamma ; Sim. of 95B- DELANA(liq) Fix 1 ; RUTH
+2 Fermion,,GAMS,"LongDST Compton, e e --> nu nubar + gamma:     ANA96E Fix 1 ; RUTH"
+Higgs,,GG1T,"XShortDST gamma gamma -> hadrons, TWOGAM_2 SINGLE TAG         RAL; "
+Higgs,,GGCC,ShortDST gamma gamma -> D* X using BDK                       RAL.; 
+EEGG,,GGEE,LongDST gamma gamma -> e+e- ;Sim. of 95A  DELANA(liq) Fix 1 ; RUTH
+Higgs,,GGM1,"XShortDST gamma gamma -> hadrons, TWOGAM2 sample 1           KARL;"
+Higgs,,GGM2,"XShortDST gamma gamma -> hadrons, TWOGAM2 sample 2 VDM+QPM    RAL;"
+Higgs,,GGM3,"XShortDST gamma gamma -> hadrons, TWOGAM2 sample 3           KARL;"
+Higgs,,GGM4,"XShortDST gamma gamma -> hadrons, TWOGAM2 sample 4           KARL;"
+Higgs,,GGM5,"XShortDST gamma gamma -> hadrons, TWOGAM2 sample 5           RAL.;"
+Higgs,,GGMH,"ShortDST  gamma gamma -> hadrons, TWOGAM20                  ; RAL."
+Higgs,,GGMM,XShortDST gamma gamma --> mu+mu- (gammma)                    SACL; 
+Higgs,,GGMU,"LongDST gamma-gamma-->mu mu, no cuts;   (liq) ANA94B Fix 3  ; BAST"
+Higgs,,GGPY6156JPSINOVDM,"Extended Short DST simulation 99_a1 200 , CERN"
+Higgs,,GGPY6156JPSINVDMMU,"Extended Short DST simulation 99_a1 200 , CERN"
+Higgs,,GGPY6156JPSIVDMMU,"Extended Short DST simulation 99_a1 200 , CERN"
+Higgs,,GGPY6156JPSIVDMVDM,"Extended Short DST simulation 99_a1 200 , CERN"
+Higgs,,GGPY6156WMIN1,"Extended Short DST simulation 99_e1 200 , CERN"
+Higgs,,GGQC,LongDST g g -> hadrons(QCD); Sim. of 95B- DELANA(liq) Fix 1 ; RUTH
+Higgs,,GGQP,LongDST g g -> hadrons(QPM); Sim. of 95B- DELANA(liq) Fix 1 ; RUTH
+Higgs,,GGTT,LongDST gam gam -> tau+tau- ;Sim. of 95A  DELANA(liq) Fix 1 ; RUTH
+Higgs,,GGTWJPSIQPMMMU,"Extended Short DST simulation 99_a1 200 , CERN"
+Higgs,,GGTWOGAM2054PIC,"Extended Short DST simulation 99e  done at ecm=199.5 GeV , CERN"
+Higgs,,GGVD,LongDST g g -> hadrons(VDM); Sim. of 95B- DELANA(liq) Fix 1 ; RUTH
+Higgs,,GGVP,"XShortDST gamma gamma -> hadrons, TWOGAM202D generator        RAL;"
+Higgs,,GM1B,"XShortDST gamma gamma -> hadrons, TWOGAM 2.03, sample 1bis   SNAK;"
+Higgs,,GM3B,"XShortDST gamma gamma -> hadrons, TWOGAM 2.03, sample 3bis   SNAK;"
+Susy,,GMSB,XShortDST Long staus -> tau grav (or nutau) mu                RAL; 
+Higgs,,GPM1,"XShortDST gamma gamma -> hadrons, PHOJET sample 1            KARL;"
+Higgs,,GPM3,"XShortDST gamma gamma -> hadrons, PHOJET  sample 3           KARL;"
+Higgs,,GPMB,"XShortDST gamma gamma -> hadrons, PHOJET 1.12p, min.bias     SNAK;"
+Higgs,,GPYM,ShortDST gamma gamma -> hadrons  TWOGAM202D generator        RAL.; 
+4 Fermion,,GPYM6143C1,"Extended Short DST simulation 99_a1 done at ecms=206.7 , CERN           Jan 2000 US"
+4 Fermion,,GPYM6143C2,"Extended Short DST simulation 99_a1 done at ecms=206.7 , CERN           Jan 2000 US"
+4 Fermion,,GPYM6143WC0EEQQ,"Extended Short DST simulation 97_g1 done at ecms=182.7 , CERN"
+4 Fermion,,GPYM6143WGG6EEQQ,"Extended Short DST simulation 99_e1 done at ecms=199.5 , CERN"
+2 Fermion,,GPYM6147C3,"XSHORT DST gamma gamma ->hadrons, pythia6.147, cut=2, xsec ~170pb Extended Short DST simulation 99_a1 200 , CERN, requested by Sharka"
+2 Fermion,,GPYM6156C4,"special sample gamma gamma -> hadrons, pythia 6156 Cut = 3 Extended Short DST simulation 99_a1 200 , Lyon, 139753 events"
+2 Fermion,,GPYM6156JPSI,"gamma gamma with Pythia 6.156, J-Psi enhanced Extended Short DST simulation 99_a1 200 , CERN"
+Higgs,,GPYM6156JPSIVDM,"Extended Short DST simulation 99_a1 200 , CERN"
+Higgs,,GPYM6203JPSI,"Extended Short DST simulation 99e1 200 , CERN"
+Higgs,,GPYN,ShortDST gamma gamma -> hadrons  TWOGAM202D generator        RAL.; 
+Higgs,,H0A0,LongDST Susy Higgs mA=55 GeV;Sim. of 95B- DELANA(liq) Fix 1 ; RUTH
+Higgs,,H22A,XShortDST e+e- -> hA or hZ              ;Sim.97 ANA97A Fix 1 ;SACL
+Higgs,,HA02,XShortDST  e+e- --> hA --> 4B tanbeta + 20 HZHA  m(A)        SACL;
+Higgs,,HA02TTBB,"ShortDST HZHA03  e+e- --> hA -> tautaubbbar, tan beta = 2 Extended Short DST simulation 99_a1 done at ecms=191.6 , CERN"
+Higgs,,HA20,XShortDST e+e- -> hA (both in bbbar)    ;Sim.97 ANA97A Fix 1 ;SACL
+Higgs,,HA20TTBB,"ShortDST HZHA03  e+e- --> hA ->tautaubbbar, tan beta = 20 Extended Short DST simulation 99_a1 done at ecms=191.6 , CERN"
+Higgs,,HA4B,XShortDST e+ e- --> h A --> b b b b                          BAST; 
+Higgs,,HA4C,XShortDST e+ e- --> h A --> c c c c                          BAST; 
+Higgs,,HA50,XShortDST  e+e- --> hA --> 4b tanbeta = 50 HZHA03 m(A)       SACL;
+Higgs,,HA50TTBB,"ShortDST HZHA03  e+e- --> hA ->tautaubbbar, tan beta = 50 Extended Short DST simulation 99_a1 done at ecms=191.6 , CERN"
+Higgs,,HA6B,"XShortDST e+ e- --> h A A, A --> b bbar                      BAST; "
+Higgs,,HAB2,"XShortDST e+e- -> hA (h->bbbar,A->bbbar);Sim.97 ANA97A Fix 1 ;SACL"
+Higgs,,HABT,"XShortDST e+e- -> h A, h --> b bbar,  A --> tau tau          BAST;"
+Higgs,,HATB,"XShortDST e+e- -> h A, h --> tau tau, A --> b bbar           BAST;"
+Higgs,,HGEE,"ShortDST HZHA03 H->gluglu, Z->e+e-  Extended Short DST simulation 99_a1 192 , Karlsruhe"
+Higgs,,HGMM,"ShortDST HZHA03 H->gluglu, Z->mu+mu-  Extended Short DST simulation 99_a1 192 , Karlsruhe"
+Higgs,,HGNN,"ShortDST HZHA03 H->gluglu, Z->nunubar  Extended Short DST simulation 99_a1 192 , Karlsruhe"
+Higgs,,HGNU,"XShortDST e+e- --> hZ (h -> glu, Z --> nu nu)     HZHA03     KARL; "
+Higgs,,HGQQ,"ShortDST HZHA03 H->gluglu, Z->qqbar  Extended Short DST simulation 99_a1 192 , Karlsruhe"
+Higgs,,HGTT,"ShortDST HZHA03 H->gluglu, Z->tau+tau- Extended Short DST simulation 99_a1 192 , Karlsruhe"
+Higgs,,HHPY,LongDST e+e- --> H+H-                          ANA96E Fix 1 ; SACL
+Higgs,,HIEE,XShortDST e+e- -> h(inv)ee              ;Sim.97 ANA97A Fix 1 ;STOC
+Higgs,,HIMM,XShortDST ee -> hZ (h -> invis; Z -> mumu)    ANA98A         STOC;
+Higgs,,HINV,XShortDST  e+e- --> H(invisible) Z(tautau)                   SACL;
+Higgs,,HIQQ,XShortDST e+e- -> h(inv)qq              ;Sim.97 ANA97A Fix 1 ;STOC
+Higgs,,HITT,ShortDST h--> invis; Z--> tautau                             STOC; 
+Higgs,,HIWP,"LongDST e+e- -> H0+Z0 (H0 -> bb~, Z0 -> nu nu) ANA97A Fix 1 ; GENO"
+Higgs,,HPHM,LongDST e+e--> H+H-(cs0 any);Sim. of 95B- DELANA(liq) Fix 1 ; SACL
+Higgs,,HSEE,"ShortDST HZHA03 H->ssbar, Z->e+e-  Extended Short DST simulation 99_a1 192 , Karlsruhe"
+Higgs,,HSMM,"ShortDST HZHA03 H->ssbar, Z->mu+mu-  Extended Short DST simulation 99_a1 192 , Karlsruhe"
+Higgs,,HSNN,"ShortDST HZHA03 H->ssbar, Z->nunubar  Extended Short DST simulation 99_a1 192 , Karlsruhe"
+Higgs,,HSNU,"XShortDST e+e- --> hZ (h -> s sbar, Z --> nu nu)  HZHA03     KARL; "
+Higgs,,HSQQ,"ShortDST HZHA03 H->ssbar, Z->qqbar  Extended Short DST simulation 99_a1 192 , Karlsruhe"
+Higgs,,HSTT,"ShortDST HZHA03 H->ssbar, Z->tau+tau- Extended Short DST simulation 99_a1 192 , Karlsruhe"
+Higgs,,HTTZ,XShortDST  e+e- --> HZ --> tautauqqbar                       SACL;
+Higgs,,HZAL,"XShortDST e+e- --> hZ (h -> any , Z -> any)                  SACL; "
+Higgs,,HZEE,XShortDST  e+e- --> HZ --> He+e-                             SACL;
+Higgs,,HZFU,"XShortDST e+e- --> hZ (h -> any , Z -> nunu)                 SACL; "
+Higgs,,HZHA,mass production during the jeune genevois 2000  simulation   
+Higgs,,HZHA03HA02,"Extended Short DST simulation 99_a1 196 , CERN"
+Higgs,,HZHA03P6156GGGG,"ShortDST HZHA03(Pythia 6.156)  e+e- --> hA ->4gluon, mh=110 GeV, different A  masses  Extended Short DST simulation 99_a1 196 , CERN"
+Higgs,,HZHA03P6156HGNN,"ShortDST HZHA03 H->gluglu, Z->nunubar  Extended Short DST simulation 99_a1 196 , CERN"
+Higgs,,HZHA03P6156HGQQ,"ShortDST HZHA03 H->gluglu, Z->qqbar  Extended Short DST simulation 99_a1 196 , CERN"
+Higgs,,HZHA03P6156HSNN,"ShortDST HZHA03 H->ssbar, Z->nunubar  Extended Short DST simulation 99_a1 196 , CERN"
+Higgs,,HZHA03P6156HSQQ,"ShortDST HZHA03 H->ssbar, Z->qqbar  Extended Short DST simulation 99_a1 196 , CERN"
+Higgs,,HZHA03P6156HZNU,"Extended Short DST simulation 99_a1 done at ecms=206.70 , Lyon"
+Higgs,,HZHA03P6156HZQQ,"Extended Short DST simulation 99_a1 done at ecms=206.7 , Lyon, 4999 events"
+Higgs,,HZHA03PYTH6156HA20,"XShortDst HZHA03  e+e- --> hA ->4b, tan beta = 20 Extended Short DST simulation a0_e1 done at ecms=206.5 , CERN"
+Higgs,,HZHA03PYTH6156HA4B,"XShortDst HZHA03  e+e- --> hA -> 4b Extended Short DST simulation 98_e1 done at ecms=188.6 , RAL"
+Higgs,,HZHA03PYTH6156HA4G,"Extended Short DST simulation 98e  done at ecm=188.6 GeV , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M100_M12,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M100_M4,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M100_M8,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M110_M12,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M110_M4,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M110_M8,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M120_M12,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M120_M4,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M120_M8,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M12_M12,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M12_M4,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M12_M8,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M130_M12,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M130_M4,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M130_M8,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M140_M12,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M140_M4,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M140_M8,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M150_M12,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M150_M4,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M150_M8,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M160_M12,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M160_M4,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M160_M8,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M170_M12,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M170_M4,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M170_M8,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M20_M12,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M20_M4,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M20_M8,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M30_M12,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M30_M4,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M30_M8,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M40_M12,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M40_M4,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M40_M8,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M50_M12,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M50_M4,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M50_M8,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M60_M12,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M60_M4,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M60_M8,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M70_M12,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M70_M4,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M70_M8,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M80_M12,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M80_M4,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M80_M8,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M90_M12,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M90_M4,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E196_M90_M8,"Full DST/Delana output simulation 99_a 196 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M100_M12,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M100_M4,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M100_M8,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M110_M12,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M110_M4,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M110_M8,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M120_M12,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M120_M4,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M120_M8,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M12_M12,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M12_M4,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M12_M8,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M130_M12,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M130_M4,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M130_M8,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M140_M12,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M140_M4,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M140_M8,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M150_M12,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M150_M4,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M150_M8,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M160_M12,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M160_M4,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M160_M8,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M170_M12,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M170_M4,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M170_M8,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M20_M12,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M20_M4,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M20_M8,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M30_M12,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M30_M4,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M30_M8,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M40_M12,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M40_M4,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M40_M8,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M50_M12,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M50_M4,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M50_M8,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M60_M12,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M60_M4,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M60_M8,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M70_M12,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M70_M4,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M70_M8,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M80_M12,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M80_M4,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M80_M8,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M90_M12,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M90_M4,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E200_M90_M8,"Full DST/Delana output simulation 99_a 200 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M100_M12,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M100_M4,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M100_M8,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M110_M12,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M110_M4,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M110_M8,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M120_M12,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M120_M4,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M120_M8,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M12_M12,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M12_M4,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M12_M8,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M130_M12,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M130_M4,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M130_M8,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M140_M12,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M140_M4,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M140_M8,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M150_M12,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M150_M4,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M150_M8,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M160_M12,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M160_M4,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M160_M8,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M170_M12,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M170_M4,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M170_M8,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M20_M12,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M20_M4,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M20_M8,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M30_M12,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M30_M4,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M30_M8,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M40_M12,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M40_M4,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M40_M8,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M50_M12,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M50_M4,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M50_M8,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M60_M12,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M60_M4,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M60_M8,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M70_M12,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M70_M4,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M70_M8,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M80_M12,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M80_M4,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M80_M8,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M90_M12,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M90_M4,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4G_E206_M90_M8,"Full DST/Delana output simulation 99_a 206 , CERN"
+Higgs,,HZHA03PYTH6156HA4T,"Extended Short DST simulation 98e  done at ecm=188.6 GeV , CERN"
+Higgs,,HZHA03PYTH6156HA50,"XShortDst HZHA03  e+e- --> hA ->4b, tan beta = 50 Extended Short DST simulation 98_e1 done at ecms=188.6 , CERN"
+Higgs,,HZHA03PYTH6156HA50BBTT,"Extended Short DST simulation 98_e1 done at ecms=188.6 , CERN"
+Higgs,,HZHA03PYTH6156HA50TTBB,"XShortDst HZHA03  e+e- --> hA ->tautaubbbar, tan beta = 50 Extended Short DST simulation 98_e1 done at ecms=188.6 , CERN"
+Higgs,,HZHA03PYTH6156HA6B,"Extended Short DST simulation 99a1 done at ecms=199.5 , CERN"
+Higgs,,HZHA03PYTH6156HA6B_E199.5_M30_M12,"Full DST/Delana output simulation 99a done at ecms=199.5 , CERN"
+Higgs,,HZHA03PYTH6156HA6B_E199.5_M50_M12,"Full DST/Delana output simulation 99a done at ecms=199.5 , CERN"
+Higgs,,HZHA03PYTH6156HABBTT,"Extended Short DST simulation 98_e1 done at ecms=188.6 , CERN"
+Higgs,,HZHA03PYTH6156HATTBB,"Extended Short DST simulation 98_e1 done at ecms=188.6 , CERN"
+Higgs,,HZHA03PYTH6156HCEE,"Extended Short DST simulation 98_e1 done at ecms=188.6 , Lyon"
+Higgs,,HZHA03PYTH6156HCMM,"Extended Short DST simulation 98_e1 done at ecms=188.6 , RAL"
+Higgs,,HZHA03PYTH6156HCNN,"Extended Short DST simulation 98_e1 done at ecms=188.6 , Karlsruhe"
+Higgs,,HZHA03PYTH6156HCQQ,"Extended Short DST simulation 98_e1 done at ecms=188.6 , Karlsruhe"
+Higgs,,HZHA03PYTH6156HGEE,"XShortDst HZHA03 H->gluglu, Z->e+e-  Extended Short DST simulation 98_e1 done at ecms=188.6 , Lyon"
+Higgs,,HZHA03PYTH6156HGMM,"XShortDst HZHA03 H->gluglu, Z->mu+mu-  Extended Short DST simulation 98_e1 done at ecms=188.6 , RAL"
+Higgs,,HZHA03PYTH6156HGNN,"XShortDst HZHA03 H->gluglu, Z->nunubar  Extended Short DST simulation 98_e1 done at ecms=188.6 , Karlsruhe"
+Higgs,,HZHA03PYTH6156HGQQ,"XShortDst HZHA03 H->gluglu, Z->qqbar  Extended Short DST simulation 98_e1 done at ecms=188.6 , Karlsruhe"
+Higgs,,HZHA03PYTH6156HINVEE,"Extended Short DST simulation 98_e1 done at ecms=188.6 , RAL"
+Higgs,,HZHA03PYTH6156HINVMU,"Extended Short DST simulation 98_e1 done at ecms=188.6 , RAL"
+Higgs,,HZHA03PYTH6156HINVQQ,"Extended Short DST simulation 98_e1 done at ecms=188.6 , RAL"
+Higgs,,HZHA03PYTH6156HINVTT,"Extended Short DST simulation 98_e1 done at ecms=188.6 , RAL"
+Higgs,,HZHA03PYTH6156HSEE,"XShortDst HZHA03 H->ssbar, Z->e+e-  Extended Short DST simulation 98_e1 done at ecms=188.6 , Lyon"
+Higgs,,HZHA03PYTH6156HSMM,"XShortDst HZHA03 H->ssbar, Z->mu+mu-  Extended Short DST simulation 98_e1 done at ecms=188.6 , RAL"
+Higgs,,HZHA03PYTH6156HSNN,"XShortDst HZHA03 H->ssbar, Z->nunubar  Extended Short DST simulation 98_e1 done at ecms=188.6 , Karlsruhe"
+Higgs,,HZHA03PYTH6156HSQQ,"XShortDst HZHA03 H->ssbar, Z->qqbar  Extended Short DST simulation 98_e1 done at ecms=188.6 , Karlsruhe"
+Higgs,,HZHA03PYTH6156HWQQLNQQ,"Extended Short DST simulation 99e1 done at ecms=195.5 , RAL"
+Higgs,,HZHA03PYTH6156HWQQQQNN,"Extended Short DST simulation 99e1 done at ecms=195.5 , RAL"
+Higgs,,HZHA03PYTH6156HWQQQQQQ,"Extended Short DST simulation 99e1 done at ecms=195.5 , Lyon"
+Higgs,,HZHA03PYTH6156HZBQ,"Extended Short DST simulation 99e1 done at ecms=199.5 , CERN"
+Higgs,,HZHA03PYTH6156HZCQ,"Extended Short DST simulation 99e1 done at ecms=199.5 , CERN"
+Higgs,,HZHA03PYTH6156HZEE,"XShortDst HZHA03  e+e- --> HZ (H ->  any  Z-> e+e-)(HZ+interference+fusion) Extended Short DST simulation 98_e1 done at ecms=188.6 , CERN"
+Higgs,,HZHA03PYTH6156HZMU,"XShortDst HZHA03  e+e- --> HZ (H ->  any  Z -> mu+mu-) Extended Short DST simulation 98_e1 done at ecms=188.6 , CERN"
+Higgs,,HZHA03PYTH6156HZNU,"XShortDst HZHA03  e+e- --> HZ (H ->  any Z -> nu nubar)(HZ+interference+fusion) Extended Short DST simulation 98_e1 done at ecms=188.6 , CERN"
+Higgs,,HZHA03PYTH6156HZQQ,"XShortDst HZHA03  e+e- --> HZ (H ->  any but tau Z -> q qbar) Extended Short DST simulation 98_e1 done at ecms=188.6 , CERN"
+Higgs,,HZHA03PYTH6156HZTT,"XShortDst HZHA03  e+e- --> HZ (H ->  any but tau Z -> tau+tau-) Extended Short DST simulation 98_e1 done at ecms=188.6 , CERN"
+Higgs,,HZHA03PYTH6156HZVC,"HZHA03  e+e- --> hZ -> nu nu c c Extended Short DST simulation 98e  done at ecm=188.6 GeV , CERN"
+Higgs,,HZHA03PYTH6156HZVG,"HZHA03  e+e- --> hZ -> nu nu gluon gluon Extended Short DST simulation 98e  done at ecm=188.6 GeV , CERN"
+Higgs,,HZHA03PYTH6156HZVS,"HZHA03  e+e- --> hZ -> nu nu s s Extended Short DST simulation 98e  done at ecm=188.6 GeV , CERN"
+Higgs,,HZHA03PYTH6156TTZ,"XShortDst HZHA03  e+e- --> HZ (H ->  tau+tau- Z -> q qbar) Extended Short DST simulation 98_e1 done at ecms=188.6 , CERN"
+Higgs,,HZHA03PYTHIA6156BBTT,"Short DST simulation 94c2 done at ecms=91.2 , CERN"
+Higgs,,HZHA03PYTHIA6156TTTT,"Short DST simulation 94c2 done at ecms=91.2 , CERN"
+Higgs,,HZHAHPHMWATN,"Extended Short DST simulation 98e1 done at ecms=188.7 , CERN"
+Higgs,,HZHAHPHMWAWA,"Extended Short DST simulation 98e1 done at ecms=188.7 , CERN"
+Higgs,,HZLM,"XShortDST e+e- --> hZ (h->bbbar, Z-> qqbar)   HZHA03  m(A)   SACL; "
+Higgs,,HZMU,"XShortDST  e+e- --> hZ (h -> any , Z -> mumu)                SACL;"
+Higgs,,HZNU,"XshortDST e+e- --> hZ (h -> any, Z -> nunu)                  SACL; "
+Higgs,,HZQQ,"XShortDST e+e- -> hZ (h->any, Z->qqbar) ;Sim.97 ANA97A Fix 1 ;SACL"
+Higgs,,HZTT,XShortDST  e+e- --> HZ --> Htautau                           SACL;
+2 Fermion,,KK2F4143MMNOIFI,"Extended Short DST simulation 98_e1 done at ecms=188.6 , RAL"
+2 Fermion,,KK2F4143MUMU,"raw data simulation raw data  done at ecm=91.25 GeV , CERN"
+2 Fermion,,KK2F4143MUMU_E200,"Full DST/Delana output simulation 99_a 200 , CERN"
+2 Fermion,,KK2F4143MUMU_E91.25,"Full DST/Delana output simulation 97g  done at ecm=91.25 GeV , CERN"
+2 Fermion,,KK2F4143QQ,"Extended Short DST simulation 97_g1 done at ecms=182.7 , Lyon"
+2 Fermion,,KK2F4143QQSTRIP,Extended Short DST simulation 97_g1 done at ecms=182.7 
+2 Fermion,,KK2F4144QQAR,"Extended Short DST simulation 99e1 done at ecms=191.6 , RAL"
+2 Fermion,,KK2F4144QQAR_E91.25,"Full DST/Delana output simulation a0e  done at ecm=91.25 GeV , CERN"
+2 Fermion,,KK2F4144TTHL,"Extended Short DST simulation 97_g1 done at ecms=182.7 , RAL"
+2 Fermion,,KK2F4144TTSP,"Extended Short DST simulation 98_e1 done at ecms=188.6 , RAL"
+2 Fermion,,KK2F4145QQHW,"Extended Short DST simulation a0_e1 done at ecms=206.5 , Lyon"
+2 Fermion,,KK2F4145QQPY,"Short DST simulation 94c2 done at ecms=91.25 , CERN"
+2 Fermion,,KK2F4145QQPYBE32,"Short DST simulation 94c2 done at ecms=91.25 , Lyon"
+2 Fermion,,KK2F4145QQPYBE321,"Short DST simulation 94c2 done at ecms=91.25 , Lyon"
+2 Fermion,,KK2F4146BBARDCY,"Short DST simulation 94c2 done at ecms=91.25 , RAL"
+2 Fermion,,KK2F4146QQARDCY,"Short DST simulation 95d2 130 , CERN"
+2 Fermion,,KK2F4146QQPY,"Short DST simulation 92e2 done at ecms=91.25 , CERN"
+2 Fermion,,KK2F4146QQPYBE321,"Short DST simulation 93d2 done at ecms=91.25 , CERN"
+2 Fermion,,KK2F4146QQPYBSW,"Short DST simulation 94c2 done at ecms=91.25 , CERN"
+2 Fermion,,KK2F4146QQPYDCY,"Short DST simulation 94c2 done at ecms=91.25 , CERN"
+2 Fermion,,KK2F4146SIGMAQHIGHQQ,"Extended Short DST simulation 98e1 done at ecms=91.25 , CERN"
+2 Fermion,,KK2F4146SIGMAQLOWQQ,"Extended Short DST simulation 98e1 done at ecms=91.25 , CERN"
+2 Fermion,,KK2F4146TTHL,"Short DST simulation 94c2 done at ecms=89.437 , CERN"
+2 Fermion,,KK2F414QQ,"Extended Short DST simulation 99_a1 done at ecms=91.25 , CERN"
+2 Fermion,,KKMM414,"Extended Short DST simulation 99_a1 done at ecms=188.6 , CERN"
+2 Fermion,,KKQQ414,"Extended Short DST simulation 99_a1 done at ecms=188.6 , CERN"
+2 Fermion,,KORA,LongDST Tau pairs+ISR (KORALZ38); Sim. of 93 (gas) ANA93C F1; BAST
+2 Fermion,,KORALWCETRAROAC0,"Extended Short DST simulation 98_e1 done at ecms=188.6 , CERN"
+2 Fermion,,KORALWCETRAROAC2,"Extended Short DST simulation 98_e1 done at ecms=188.6 , CERN"
+2 Fermion,,KORALWCETRAROHC0,"Extended Short DST simulation 98e1 done at ecms=188.6 , CERN"
+2 Fermion,,KORALWCETRAROHC1,"Extended Short DST simulation 98e1 done at ecms=188.6 , CERN"
+2 Fermion,,KORALWCETRAROJT,"Extended Short DST simulation 98_e1 done at ecms=188.6 , CERN"
+2 Fermion,,KORALWCETRAROJTSKI,"Extended Short DST simulation 98e1 done at ecms=188.6 , CERN"
+2 Fermion,,KORALWCETRARONAC21,"Extended Short DST simulation 98_e1 done at ecms=188.6 , CERN"
+2 Fermion,,KORALWCETRAROPBA,"Extended Short DST simulation 98e1 done at ecms=188.6 , CERN"
+2 Fermion,,KORALWCETRAROPBB,"Extended Short DST simulation 98e1 done at ecms=188.6 , CERN"
+2 Fermion,,KORALWCETRAROPBI,"Extended Short DST simulation 98e1 done at ecms=188.6 , CERN"
+2 Fermion,,KORALZ402KORA,Extended Short DST simulation 98_e1 done at ecms=91.2 
+2 Fermion,,KORALZ402VVKZ,Extended Short DST simulation 97g1 done at ecms=183.5 
+2 Fermion,,KORALZ42KORA,"Extended Short DST simulation a0_u1 done at ecms=091.2 , RAL"
+2 Fermion,,KOZ4,KORALZ40 Tau Pairs generator Delsim v94_4 Delana 94C       ; BAST
+2 Fermion,,KW142319FEB01,"XSHORT KoralW 1.424 from 19 Feb. 2001 at 200GeV testsample Extended Short DST simulation 99_a1 200 , CERN"
+2 Fermion,,LCKB,ShortDST C decays with LambaC --> p K pi                     ;BAST
+2 Fermion,,LCKC,B decays with LambdaC --> p K pi                 (94C2)    ; BAST
+2 Fermion,,LLLL,LongDST e+e- --> l+l- l+l-     ;Sim. 95C DELANA(liq) Fix 2 ; RUTH
+2 Fermion,,LLQQ,LongDST e+e- -> l+ l- q q~  ; Sim. of 95C DELANA(liq) Fix 2 ; RUTH
+2 Fermion,,LVLV,LongDST e+e- --> lv lv         ;Sim. 95C DELANA(liq) Fix 2 ; RUTH
+2 Fermion,,LVQQ,"ShortDST; LVQQ cross-section = 0.0094 +- 0.0001 pb Short DST simulation 92_e2 gas done at ecms=91.25 , RAL"
+2 Fermion,,MMPY,"LongDST Z0Gamma, Z0 -> mu+ mu-                 ANA96E Fix 1 ; RUTH"
+2 Fermion,,MMQQ,LongDST e+e- --> mu+mu- q qbar; Sim. 95C DELANA(liq) Fix 2 ; RUTH
+2 Fermion,,MUMU,LongDST mu+ mu-  (KORALZ)   ; Sim. of 95C DELANA(liq) Fix 2 ; RUTH
+2 Fermion,,MVEV,XShortDST e+e- --> mu nu e ni for cos(theta e)>0.9999         RAL;    
+2 Fermion,,MVQQ,LongDST e+e- --> muv q qbar  ;  Sim. 95C DELANA(liq) Fix 2 ; RUTH
+Susy,,NECG,XShortDST e+e- -> chi02 chi02 -> (chi01 gamma)(chi01 gamma)  FARM; 
+2 Fermion,,PHOJET110QQ,"Extended Short DST simulation 99_e1 done at ecms=199.5 , CERN"
+Higgs,,PYTH6156HPPHMM,"Extended Short DST simulation 99_a1 done at ecms=208.0 , RAL"
+Higgs,,PYTH6156HPPHMML,"Extended Short DST simulation 98_e1 done at ecms=188.7 , CERN"
+Higgs,,PYTH6156HPPHMMR,"Extended Short DST simulation 98_e1 done at ecms=188.7 , CERN"
+2 Fermion,,PYTHIA,mass production during the jeune genevois 2000  simulation   
+Higgs,,PYTHIA5720YUKABBTT,"Short DST simulation 94c2 done at ecms=91.2 , CERN"
+Higgs,,PYTHIA5720YUKATTTT,"Short DST simulation 94c2 done at ecms=91.2 , CERN"
+Higgs,,PYTHIA5720YUKHBBTT,"Short DST simulation 94c  done at ecm=91.2 GeV , CERN"
+Higgs,,PYTHIA5720YUKHTTTT,"Short DST simulation 94c2 done at ecms=91.2 , CERN"
+EEGG,,QEDBK23EEGG,Extended Short DST simulation 97g1 done at ecms=183.5 
+2 Fermion,,QQAR,ShortDST QQbar with Ariadne; Sim. of 94 (liq) ANA94C Fix 2  ; FARM
+2 Fermion,,QQBB,XShortDST e+e- -> WW -> qqbb PYTHIA6.131 DELPHI Mar 95 tune   RAL; 
+2 Fermion,,QQEE,XShortDST e+e- -> qqee    Exalibur 0.91    ANA97F            SACL; 
+2 Fermion,,QQHR,LongDST e+ e- -> Z0/gam  HERWIG5.8d Delphi Tune             ;RUTH
+2 Fermion,,QQKZ,XShortDST Z0 --> qqbar  with Koralz  ; Sim. 97 ANA97A Fix 1 ; RUTH 
+2 Fermion,,QQMM,"XShortDST e+e- --> mu+mu-qqbar by EXCALIBUR 1,08 MW=80.35    SACL; "
+2 Fermion,,QQMU,XShortDST e+e- -> qqmumu  Exalibur 0.91    ANA97F            SACL; 
+2 Fermion,,QQNN,XShortDST e+e- --> nu nu qqbar by EXCALIBUR 2.01 MW=80.35    SACL; 
+2 Fermion,,QQPO,ShortDST QQbar ( off peak ); Sim. of 95 (liq) ANA95C Fix 2  ; BAST
+2 Fermion,,QQPS,LongDST qqbar PS            Sim. of 96         ANA96E Fix 1 ; RUTH
+2 Fermion,,QQPS_E91.2,"raw data simulation raw data done at ecms=91.2 , CERN"
+2 Fermion,,QQQQ,LongDST e+e- -> q q~ q q~   ; Sim. of 95C DELANA(liq) Fix 2 ; RUTH
+2 Fermion,,QQTT,XShortDST  e+e- --> qqtautau by EXALIBUR 1.8   MW=80.35      SACL;
+2 Fermion,,QQVV,XShortDST e+e- --> qqbarnunu by EXALIBUR 2.01                SNAK; 
+2 Fermion,,RACOONWW12MVUD,"Extended Short DST simulation 98e1 done at ecms=188.6 , CERN"
+2 Fermion,,RACOONWW12SCUD,"Extended Short DST simulation 98e1 done at ecms=188.6 , CERN"
+2 Fermion,,RACOONWW13MVUD,"Extended Short DST simulation 98e  done at ecm=188.6 GeV , CERN"
+2 Fermion,,RACOONWW13SCUD,"Extended Short DST simulation 98e  done at ecm=188.6 GeV , CERN"
+Susy,,RCH1,"XShortDST e+e- -> chargino pair production, with RPV UDD     SNAK; "
+Susy,,RNE1,"XShortDST e+e- -> neutralino pair production, with RPV UDD   SNAK; "
+Susy,,SBOD,"XShortDST e+e- -> sbottom pair production, with RPV UDD      SNAK; "
+Susy,,SBOI,"XShortDST e+e- -> sbottom pair production, with RPV UDD      SNAK; "
+Susy,,SBOT,XShortDST e+e- -> sbot sbotbar (SUSY)                        SNAK; 
+Higgs,,SCAN,"ShortDST higgs  Short DST simulation 94_c2 done at ecms=91.25 , Snak"
+Susy,,ST3B,"XShortDST e+e- --> stop+stop, stop --> b l sneutrino         WIEN;"
+Susy,,STOP,LongDST Signal stop->c+LSP; R-parity conserv.  ANA96E Fix 1 ; WIEN
+Susy,,SUSY,LongDST SUSY signal        ; Sim. of 95B- DELANA(liq) Fix 1 ; RUTH
+Susy,,SUSYGEN200,"Extended Short DST simulation 99_a1 189 , CERN"
+Susy,,SUSYGEN212CHANEU,"Extended Short DST simulation 99_a1 196 , CERN"
+Susy,,SUSYGEN212CHANEU_E196,"Full DST/Delana output simulation 99_a 196 , CERN"
+Susy,,SUSYGEN212CHANEU_E200,"Full DST/Delana output simulation 99_a 200 , CERN"
+Susy,,SUSYGEN212CHANEU_E207,"Full DST/Delana output simulation 00_s 207 , CERN"
+Susy,,SUSYGEN212CHASNU,"Extended Short DST simulation 99_a1 207 , CERN"
+Susy,,SUSYGEN212CHASNU_E207,"Full DST/Delana output simulation 99_a 207 , CERN"
+2 Fermion,,TAUJ,ShortDST e+e- --> Z0 --> tau+ tau-  liq  rep. with92_E Fix 2 ;KARL
+TechniColor,,TCPPPY,"TechniColor signal samples, m=50GeV Extended Short DST simulation 99_a1 200 , Santander"
+TechniColor,,TCWPPY,"Extended Short DST simulation 99_a1 200 , Santander"
+2 Fermion,,TE11,"Z0->bbbar -> Lambda_b X, Lambda_b -> Lambda0 psi->eeou mumu  ;RUTH"
+Higgs,,TEEGG71CMPT,Extended Short DST simulation 97g1 done at ecms=183.5 
+Higgs,,TEEGG71HARD,"Extended Short DST simulation 98e  done at ecm=188.6 GeV , CERN"
+Higgs,,TEEGG71SOFT,"Extended Short DST simulation 98e  done at ecm=188.6 GeV , CERN"
+Higgs,,TNTN,XShortDST e+e- --> H+H- --> taunutaunu    HZHA03             SACL; 
+2 Fermion,,TOPC,XShortDST e+e- --> t cbar                                     RAL;    
+2 Fermion,,TOTO,LongDST tau+tau- (KORALZ40); Sim. of 94 (liq) ANA94B Fix 3  ; FARM
+2 Fermion,,TTHI,"LongDST Tau pairs, one tau with high-mult. decays; ANA93C F1; FARM"
+2 Fermion,,TTHN,LongDST tau+tau- high multipl.negative (liq); ANA94B Fix 3  ; FARM
+2 Fermion,,TTHP,LongDST tau+tau- high multipl.positive (liq); ANA94B Fix 3  ; FARM
+2 Fermion,,TTPY,"LongDST Z0Gamma, Z0 -> tau+ tau-               ANA96E Fix 1 ; RUTH"
+2 Fermion,,TTQQ,LongDST e+e- --> tau+tau- q qbar;Sim.95C DELANA(liq) Fix 2 ; RUTH
+Higgs,,TTZ,"ShortDST HZHA03  e+e- --> HZ (H ->  tau+tau- Z -> q qbar) Extended Short DST simulation 99_a1 done at ecms=191.6 , CERN"
+2 Fermion,,TVEV,"XShortDST e+e- -> W W, one W-->tau nu and the other W->e nu   RAL; "
+2 Fermion,,TVMV,"XShortDST e+ e- --> W W, one W-->tau nu & the other W->mu nu  RAL; "
+2 Fermion,,TVQQ,LongDST e+e- --> tauv q qbar ;  Sim. 95C DELANA(liq) Fix 2 ; RUTH
+2 Fermion,,TVTV,"XShortDST e+ e- --> W W, both W --> tau nu                    RAL; "
+2 Fermion,,VVKZ,XShortDST e+ e- --> nu nubar + gamma KORALZ 4.02              RAL; 
+2 Fermion,,VVQQ,LongDST e+e- --> vv q qbar   ;  Sim. 95C DELANA(liq) Fix 2 ; RUTH
+DontKnow,,WANDY2MVUD,"Extended Short DST simulation 98e1 done at ecms=188.6 , CERN"
+DontKnow,,WANDY3MVUD,"Extended Short DST simulation 98e1 done at ecms=188.6 , CERN"
+DontKnow,,WANDY3MVUD24,"Extended Short DST simulation 98e  done at ecm=188.6 GeV , CERN"
+DontKnow,,WANDY3SCUD,"Extended Short DST simulation 98e1 done at ecms=188.6 , CERN"
+DontKnow,,WANDY4MVUD,"Extended Short DST simulation 98e1 done at ecms=188.6 , CERN"
+2 Fermion,,WCB1,XShortDST ALEPH generated WW Bose-Einstein Coorelated events SNAK;
+2 Fermion,,WCBA,XShortDST ALEPH generated WW Bose-Einstein Coorelated events SNAK;
+2 Fermion,,WENU,XShortDST  e+e- --> W e nu by PYTHIA5.722+JETSET7.409        SACL;
+2 Fermion,,WEPY,LongDST e+e- -> Wenu       ; Sim. of 95B- DELANA(liq) Fix 1 ; RUTH
+4 Fermion,,WPHA,LongDST e+e- -> qq~ l+l- (WPHACT generator)    ANA97A Fix 1 ; GENO
+4 Fermion,,WPHACT20CC,"Extended Short DST simulation 99_a1 done at ecms=206.7 , CERN"
+4 Fermion,,WPHACT20CCFIXED,"Xshort dst bug fixed sample wphact20 cc Extended Short DST simulation a0_e1 done at ecms=203.7 , Lyon"
+4 Fermion,,WPHACT20CC_E206.7_M80.35,"Full DST/Delana output simulation 99_a done at ecms=206.7 , CERN"
+4 Fermion,,WPHACT20FWBBBB,"Extended Short DST simulation 99_a1 done at ecms=206.7 , CERN"
+4 Fermion,,WPHACT211NCGG,"Extended Short DST simulation 98_e1 done at ecms=188.6 , CERN"
+4 Fermion,,WPHACT211NCGGTEST,"Extended Short DST simulation a0_e1 done at ecms=206.5 , CERN"
+4 Fermion,,WPHACT21ARCC,"Extended Short DST simulation a0_e1 done at ecms=206.5 , Lyon"
+4 Fermion,,WPHACT21ARCCCR,"Extended Short DST simulation a0_e1 done at ecms=206.5 , Lyon"
+4 Fermion,,WPHACT21CC,"Extended Short DST simulation 97_g1 done at ecms=182.7 , Lyon"
+4 Fermion,,WPHACT21CCT1,"Extended Short DST simulation 98e1 done at ecms=188.6 , Lyon"
+4 Fermion,,WPHACT21CCT1BE32EI,"Extended Short DST simulation 98e1 done at ecms=188.6 , Lyon"
+4 Fermion,,WPHACT21CCT2,"Extended Short DST simulation 98e1 done at ecms=188.6 , Lyon"
+4 Fermion,,WPHACT21CCT2BE32GI,"Extended Short DST simulation 98e1 done at ecms=188.6 , Lyon"
+4 Fermion,,WPHACT21HWCC,"Extended Short DST simulation 98_e1 done at ecms=188.6 , Lyon"
+4 Fermion,,WPHACT21NC4F,"Extended Short DST simulation 97_g1 done at ecms=182.7 , CERN"
+4 Fermion,,WPHACT21NCGG,"Extended Short DST simulation a0_e1 done at ecms=206.5 , CERN"
+4 Fermion,,WPHACT21TGCCQQEV,"Extended Short DST simulation a0_e1 done at ecms=206.5 , CERN"
+4 Fermion,,WPHACT21TGCCQQMV,"Extended Short DST simulation a0_e1 done at ecms=206.5 , CERN"
+4 Fermion,,WPHACT21TGCCQQQQ,"Extended Short DST simulation a0_e1 done at ecms=206.5 , CERN"
+4 Fermion,,WPHACT22CC,"Extended Short DST simulation 98_e1 done at ecms=188.6 , Lyon"
+4 Fermion,,WPHACT22CCBE32A,"Extended Short DST simulation 97_g1 done at ecms=182.7 , CERN"
+4 Fermion,,WPHACT22CCBE32A1,"Extended Short DST simulation 99_e1 done at ecms=199.5 , CERN"
+4 Fermion,,WPHACT22CCBE32I,"Extended Short DST simulation 97g1 done at ecms=182.7 , CERN"
+4 Fermion,,WPHACT22CCBE32I1,"Extended Short DST simulation 99e1 done at ecms=199.5 , CERN"
+4 Fermion,,WPHACT22CCSK1,"Extended Short DST simulation 98_e1 done at ecms=188.6 , Lyon"
+4 Fermion,,WPHACT22NC4F,"Extended Short DST simulation a0u1 205 , Lyon"
+4 Fermion,,WPHACT23CC,"Extended Short DST simulation 98e  done at ecm=188.6 GeV , CERN"
+4 Fermion,,WPHACT23CCSK1,"Extended Short DST simulation 98e  done at ecm=188.6 GeV , CERN"
+4 Fermion,,WPHACT23CCSK1ICR1,"Extended Short DST simulation a0e  done at ecm=206.5 GeV , CERN"
+4 Fermion,,WPHACT23CCSK1ICR1_E206.5_M80.4,"Full DST/Delana output simulation a0e  done at ecm=206.5 GeV , CERN"
+4 Fermion,,WPHACT23CCSK1_E188.6_M80.4,"Full DST/Delana output simulation 98e  done at ecm=188.6 GeV , CERN"
+4 Fermion,,WPHACT23CCSK1_E199.5_M80.4,"Full DST/Delana output simulation 99e  done at ecm=199.5 GeV , CERN"
+4 Fermion,,WPHACT23CCSK1_E206.5_M80.4,"Full DST/Delana output simulation a0e  done at ecm=206.5 GeV , CERN"
+4 Fermion,,WPHACT23CC_E188.6_M80.4,"Full DST/Delana output simulation 98e  done at ecm=188.6 GeV , CERN"
+4 Fermion,,WPHACT23CC_E206.5_M80.4,"Full DST/Delana output simulation a0e  done at ecm=206.5 GeV , CERN"
+4 Fermion,,WPHACT23MMMM,"Short DST simulation 95d2 done at ecms=91.25 , CERN"
+4 Fermion,,WPHACT23MMTT,"Short DST simulation 94c2 done at ecms=91.25 , CERN"
+4 Fermion,,WPHACT20BBBB,"Extended Short DST simulation 99_a1 done at ecms=206.7 , CERN"
+4 Fermion,,WPHACT23TTTT,"Short DST simulation 94c2 done at ecms=91.25 , CERN"
+4 Fermion,,WPHACT244Q,"Extended Short DST simulation 98e  done at ecm=188.6 GeV , CERN"
+4 Fermion,,WPHACT244QSK1,"Extended Short DST simulation 99e  done at ecm=199.5 GeV , CERN"
+4 Fermion,,WPHACT244QSK1_E188.6_M80.4,"Full DST/Delana output simulation 98e  done at ecm=188.6 GeV , CERN"
+4 Fermion,,WPHACT244QSK1_E199.5_M80.4,"Full DST/Delana output simulation 99e  done at ecm=199.5 GeV , CERN"
+4 Fermion,,WPHACT244QSK1_E206.5_M80.4,"Full DST/Delana output simulation a0e  done at ecm=206.5 GeV , CERN"
+4 Fermion,,WPHACT244Q_E188.6_M80.4,"Full DST/Delana output simulation 98e  done at ecm=188.6 GeV , CERN"
+4 Fermion,,WPHACT244Q_E199.5_M80.4,"Full DST/Delana output simulation 99e  done at ecm=199.5 GeV , CERN"
+4 Fermion,,WPHACT244Q_E206.5_M80.4,"Full DST/Delana output simulation a0e  done at ecm=206.5 GeV , CERN"
+4 Fermion,,WPHACT24CC,"Extended Short DST simulation 97g  done at ecm=182.7 GeV , CERN"
+4 Fermion,,WPHACT24CC_E182.7_M80.4,"Full DST/Delana output simulation 97g  done at ecm=182.7 GeV , CERN"
+4 Fermion,,WPHACT24CC_E188.6_M80.4,"Full DST/Delana output simulation 98e  done at ecm=188.6 GeV , CERN"
+4 Fermion,,WPHACT24CC_E191.6_M80.4,"Full DST/Delana output simulation 99e  done at ecm=191.6 GeV , CERN"
+4 Fermion,,WPHACT24CC_E195.5_M80.4,"Full DST/Delana output simulation 99e  done at ecm=195.5 GeV , CERN"
+4 Fermion,,WPHACT24CC_E199.5_M80.4,"Full DST/Delana output simulation 99e  done at ecm=199.5 GeV , CERN"
+4 Fermion,,WPHACT24CC_E201.6_M80.4,"Full DST/Delana output simulation 99e  done at ecm=201.6 GeV , CERN"
+4 Fermion,,WPHACT24CC_E205_M80.4,"Full DST/Delana output simulation a0e  done at ecm=205 GeV , CERN"
+4 Fermion,,WPHACT24CC_E206.5_M80.4,"Full DST/Delana output simulation a0e  done at ecm=206.5 GeV , CERN"
+4 Fermion,,WPHACT4BTESTCC,"Extended Short DST simulation 99_a1 done at ecms=206.7 , CERN"
+4 Fermion,,WPHACT4BTESTCC_E206.7_M80.35,"Full DST/Delana output simulation 99_a done at ecms=206.7 , CERN"
+2 Fermion,,WWAR,LongDST e+e- --> W+W- with ARIADNE             ANA96E Fix 1 ; RUTH
+2 Fermion,,WWBE,LongDST e+e- --> W+W- with Bose-Einstein on    ANA96E Fix 1 ; RUTH
+2 Fermion,,WWC1,"XShortDST OPAL generated blind TGC events, EXALIBUR sample   FARM;"
+2 Fermion,,WWC2,"XShortDST OPAL generated blind TGC events, EXALIBUR sample   FARM;"
+2 Fermion,,WWC3,"XShortDST OPAL generated blind TGC events, EXALIBUR sample   FARM;"
+2 Fermion,,WWCC,XShortDST ALEPH generated WW Colour Reconection events       SNAK;
+2 Fermion,,WWCH,XShortDST ALEPH generated WW  Not Colour Reconection events  SNAK;
+2 Fermion,,WWCJ,"XShortDST ALEPH generated KORALW CC03 events,JETSET sample   FARM;"
+2 Fermion,,WWEX,XShortDST e+e- -> W+W- (chan-4) mW=80.35;Sim.97 ANA97A Fix 1 ;RUTH
+2 Fermion,,WWEX201,"XSHORT WW like Excalibur events, version 201. Reprocessed from raw simulation Extended Short DST simulation 00_s1 200 , CERN, Feb. 2000 US"
+2 Fermion,,WWEX201TAU,"Extended Short DST simulation 99_a1 done at ecms=206.7 , CERN"
+2 Fermion,,WWEX202B1,"Excalibur version 202 ww with full BE (MSTJ(53) = 0) Extended Short DST simulation 99_a1 200 , CERN             Jan 2000 US"
+2 Fermion,,WWEX202B2,"Excalibur version 202 ww with BE (MSTJ(53) = 1) Extended Short DST simulation 99a1 200 , CERN            Jan 2000 US"
+2 Fermion,,WWEX202BE32F,"Extended Short DST simulation 99_a1 189 , RAL"
+2 Fermion,,WWEX202BE32F09,"Extended Short DST simulation 99_a1 189 , RAL"
+2 Fermion,,WWEX202BE32F09_E189,"Full DST/Delana output simulation 99_a 189 , RAL"
+2 Fermion,,WWEX202BE32F_E189,"Full DST/Delana output simulation 99_a 189 , RAL"
+2 Fermion,,WWEX202BE32F_E200,"Full DST/Delana output simulation 99_a 200 , RAL"
+2 Fermion,,WWEX202BE32F_E206,"Full DST/Delana output simulation 99_a 206 , RAL"
+2 Fermion,,WWEX202BE32I,"Extended Short DST simulation 99_a1 189 , RAL"
+2 Fermion,,WWEX202BE32I_E189,"Full DST/Delana output simulation 99_a 189 , RAL"
+2 Fermion,,WWEX202BE32I_E200,"Full DST/Delana output simulation 99_a 200 , RAL"
+2 Fermion,,WWEX202BE32I_E206,"Full DST/Delana output simulation 99_a 206 , RAL"
+2 Fermion,,WWHR,LongDST e+e- --> W+ W-  HERWIG5.8d Delphi Tune;ANA96E Fix 1 ; RUTH
+2 Fermion,,WWKW,XShortDST  e+e- --> WW-like by KORALW 1.41   MW=80.35        SACL;
+2 Fermion,,WWKZ,e+e- --> W+W- like  KORALZ1.41                                RAL;     
+2 Fermion,,WWPY,LongDST e+e- -> W+ W-      ; Sim. of 95B- DELANA(liq) Fix 1 ; RUTH
+2 Fermion,,WWPY6125VCB,"XSHORT WW pythia, version 6.125, WW->(any)(cb),xsec=2.085D-11 mb  Extended Short DST simulation 99_a1 done at ecms=206.7 "
+2 Fermion,,WWSH,"LongDST e+e- -> W+W- (W->anything), VD shaken  ANA96E Fix 1 ; RUTH"
+2 Fermion,,YFSWW16LPAAMVUD,"Extended Short DST simulation 98e1 done at ecms=188.6 , CERN"
+2 Fermion,,YFSWW16LPABMVUD,"Extended Short DST simulation 98e1 done at ecms=188.6 , CERN"
+2 Fermion,,YFSWW16LPABSCUD,"Extended Short DST simulation 98e1 done at ecms=188.6 , CERN"
+2 Fermion,,ZEGR,XShortDST e+e- -> Z e e GRC4F + JETSET 7.409 Delphi tune     MILA; 
+2 Fermion,,ZEPY,LongDST e+e- -> Ze+e-      ; Sim. of 95B- DELANA(liq) Fix 1 ; RUTH
+2 Fermion,,ZGAR,"LongDST Z0Gamma, Z0->qqbar with tuned ARIADNE  ANA96E Fix 1 ; RUTH"
+2 Fermion,,ZGAR6156,"Extended Short DST simulation a0_e1 done at ecms=206.5 , CERN"
+2 Fermion,,ZGPY,"LongDST Z0 gamma, Z0 -->qqbar  Sim. of 96      ANA96E Fix 1 ; BAST"
+2 Fermion,,ZGPY6125,"Extended Short DST simulation 99_e1 done at ecms=91.25 , CERN"
+2 Fermion,,ZGPY6156,"Extended Short DST simulation 99_a1 done at ecms=206.7 , CERN"
+2 Fermion,,ZGPY6156B1,XshortDST Z0Gamma (special QCD + BE tuning) PYTHIA6156 generator  Cern Extended Short DST simulation  189 
+2 Fermion,,ZGPY6156B2,"Extended Short DST simulation 99_a1 189 , CERN"
+2 Fermion,,ZGPY6156B3,"Extended Short DST simulation 99_a1 189 , CERN"
+2 Fermion,,ZGPY6156B3_E189,"Full DST/Delana output simulation 99_a 189 , CERN"
+2 Fermion,,ZGPY6156B3_E200,"Full DST/Delana output simulation 99_a 200 , CERN"
+2 Fermion,,ZGPY6156B3_E91.25,"Full DST/Delana output simulation 99_a done at ecms=91.25 , CERN"
+2 Fermion,,ZGPY6156BAFIX,"Extended Short DST simulation 99_a1 done at ecms=91.25 , Lyon"
+2 Fermion,,ZGPY6156BAFIX_E91.25,"Full DST/Delana output simulation 99_a done at ecms=91.25 , Lyon"
+2 Fermion,,ZGPY6156L1TEST,"Extended Short DST simulation 99_a1 done at ecms=91.25 , CERN"
+2 Fermion,,ZGPY6156L1TEST_E91.25,"Full DST/Delana output simulation 99_a done at ecms=91.25 , CERN"
+2 Fermion,,ZGPY6156L2TEST,"Extended Short DST simulation 99_a1 done at ecms=91.25 , Lyon"
+2 Fermion,,ZGPY6156L3TEST,"Extended Short DST simulation 99_a1 done at ecms=91.25 , CERN"
+2 Fermion,,ZGPY6156_E206.7,"Full DST/Delana output simulation 99_a done at ecms=206.7 , CERN"
+2 Fermion,,ZGPY6156_E91.25,"Full DST/Delana output simulation 99_a done at ecms=91.25 , CERN"
+2 Fermion,,ZZPW,LongDST e+ e- -> ZZ (low mass photon cutoff)   ANA96E Fix 1 ; BAST
+2 Fermion,,ZZPY,LongDST e+e- -> ZZ         ; Sim. of 95B- DELANA(liq) Fix 1 ; RUTH
+2 Fermion,,ZZPY6156,"Extended Short DST simulation a0e1 done at ecms=206.5 , RAL"

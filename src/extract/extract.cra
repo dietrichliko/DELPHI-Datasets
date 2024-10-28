@@ -1,0 +1,101 @@
++OPTION, VERbose.
++USE, ${PLINAM}.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                      %
+%         Machine independent cradle to create SKELANA library         %
+%                                                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
++USE, IBMVM, IF = CERNVM.
++USE, VMS  , IF = ALPHAVMS, VAXVMS.
++USE, UNIX , IF = ALPHAOSF, DECS, HPUX, IBMRT, LINUX, DARWIN.
+%
++EXE.
++PARAM, CLASH, N=1.
++OPT, MAPASM, UREF, LOST, BIGUSE.
+%
+% PHDST CDE's
++USE,P=PHDSTCDE.
++PAM,11,T=A,C, R=PHDSTCDE, IF=IBMVM.              PHDSTXX CARDS F
++PAM,11,T=A,C, R=PHDSTCDE, IF=VMS.     DELPHI_PAM:PHDSTXX.CAR
++PAM,11,T=A,C, R=PHDSTCDE, IF=UNIX.  (DELPHI_PAM)/phdstxx.car
+%
++KEEP, MYSTAT.
+      COMMON/MYSTAT/NRAW, NENER, IENER(100) 
++DECK, ADDENER.
+      SUBROUTINE ADDENER(IVAL)
++CDE, MYSTAT.
+      IVAL = INT((IVAL+500)/1000)
+      DO I = 1, NENER
+          IF ( IENER(I) .EQ. IVAL) THEN
+              RETURN
+          END IF
+      END DO
+      IF ( NENER .LT. 100) THEN
+          NENER = NENER + 1
+          IENER(NENER) = IVAL
+      ELSE
+          WRITE(*,*) "ERROR: More then 100 Energy values in a file."
+      END IF
+      END 
++DECK, MYPHST.
+      PROGRAM MYPHDST
+      INTEGER ISPACE, IFLAG
+      CALL PHDST(' ', ISPACE, IFLAG)
+      END
++DECK, USER00.
+       SUBROUTINE USER00
++CDE, MYSTAT.
+       NRAW = 0
+       NENER = 0
+       END
++DECK, USER01.
+       SUBROUTINE USER01(NEED)
++CDE, PHCDE.
++CDE, MYSTAT.
+       CHARACTER*4 PHPID
+       CHARACTER*4 PHRTY
+       CHARACTER*4 PHTYPE
+       NEED = 0
+       PHTYPE = PHRTY()
+       IF ( PHTYPE .EQ. "RAW") THEN
+           NRAW = NRAW + 1
+           RETURN
+       END IF
+C       I = IPHPIX(-1)
+C       DO WHILE (I >= 0)
+C          WRITE(*,*) PHPID(IPILOT(I+2), IPILOT(I+3)), 
+C     +              IPILOT(I+2), IPILOT(I+3)
+C          I = IPHPIX(I)
+C       END DO
+       IDANA = IPHPIC('DANA', 0)
+       IF (IDANA > 0) THEN
+          IENERGY = IPILOT(IDANA+13)
+C          WRITE(*,*) 'Energy', IENERGY
+          CALL ADDENER(IENERGY)
+       END IF
+
+       END
++DECK, USER99.
+       SUBROUTINE USER99
++CDE, PHCDE.
++CDE, MYSTAT.
+       WRITE(*,"('{')") 
+       WRITE(*,"('   ',A,'nrecord',A,': ',I6,',')") '"', '"', NFZPIL
+       IF ( NRAW .GT. 0) THEN
+           WRITE(*,"('   ',A,'nevent',A,': ',I6)") '"', '"', NRAW
+       ELSE
+           WRITE(*,"('   ',A,'nevent',A,': ',I6,',')") '"', '"', NEVENT
+           WRITE(*,"('   ',A,'cmenergy',A,': [')") '"', '"'
+           DO I=1, NENER
+              IF ( I .LT. NENER) THEN
+                 WRITE(*,"('      ',I8,',')") IENER(I)
+              ELSE
+                 WRITE(*,"('      ',I8)") IENER(I)
+              END IF
+           END DO
+           WRITE(*,"('   ]')")
+       END IF
+       WRITE(*,"('}')") 
+       END
+
