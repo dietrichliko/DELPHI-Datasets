@@ -21,6 +21,9 @@ mypy = "^1.11.0"
 
 [tool.poetry.scripts]
 delphi-datasets = "delphi_datasets.cli:cli"
+find-dubs = "delphi_datasets.checks:find_dubs"
+find-exts = "delphi_datasets.checks:find_exts"
+test-model = "delphi_datasets.test_model:main"
 
 #[tool.ruff.lint]
 #select = ["ALL"]

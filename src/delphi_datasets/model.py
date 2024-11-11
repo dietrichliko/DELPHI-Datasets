@@ -96,7 +96,7 @@ class Dataset(Base):
             return f"DELPHI collision data {self.name}"
 
         return f"DELPHI simulation data {self.name}"
-    
+
     @property
     def energies(self) -> list[Energy]:
         energies: set[Energy] = set()
@@ -104,7 +104,6 @@ class Dataset(Base):
             for e in f.energies:
                 energies.add(e)
         return list(energies)
-
 
     @property
     def entries(self) -> int:
@@ -124,7 +123,7 @@ class Dataset(Base):
     @property
     def first_year(self) -> str:
         return sorted(y.name for y in self.years)[0]
-    
+
     def __repr__(self) -> str:
         """Dataset as String."""
         return f"Dataset(id={self.id}, name='{self.name}', recid={self.recid}, version='{self.version}')"

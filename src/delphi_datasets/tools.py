@@ -1,5 +1,4 @@
-"""DELPHI Datasets.
-"""
+"""DELPHI Datasets."""
 
 from __future__ import annotations
 
@@ -14,6 +13,7 @@ import shutil
 import sys
 import tempfile
 from typing import Any
+import urllib
 
 import sqlalchemy
 from sqlalchemy import func, select
@@ -144,7 +144,7 @@ def find_umbrella_datasets(engine: sqlalchemy.Engine) -> None:
     d = aliased(model.Dataset)
 
     with Session(engine) as session:
-        for dataset in session.execute(stmt1).scalars():
+        for dataset in session.scalars(stmt1):
             stmt2 = (
                 select(model.Dataset)
                 .join(a1, model.Dataset.id == a1.c.dataset_id)
@@ -155,13 +155,16 @@ def find_umbrella_datasets(engine: sqlalchemy.Engine) -> None:
                 .group_by(model.Dataset)
             )
             nr = len(dataset.files)
+            lt = len(dataset.name)
             max_nr = 0
             tot_nr = 0
-            children = session.execute(stmt2).scalars()
+            max_lt = 0
+            children = session.scalars(stmt2).all()
             for dataset1 in children:
                 nr1 = len(dataset1.files)
                 max_nr = max(max_nr, nr1)
                 tot_nr += nr1
+                max_lt = max(len(dataset1.name),max_lt)
             if max_nr == 0:
                 continue
             if nr > max_nr:
@@ -171,6 +174,11 @@ def find_umbrella_datasets(engine: sqlalchemy.Engine) -> None:
                     log.warning("Incomplete Umbrella dataset %s", dataset.name)
                 for dataset1 in children:
                     dataset.children.add(dataset1)
+            elif nr == max_nr and lt > max_lt:
+                log.info("Identical dataset %s", dataset.name)
+                for dataset1 in children:
+                    dataset.children.add(dataset1)                
+            session.commit()
 
 
 async def extract_metadata(engine: sqlalchemy.Engine) -> None:
@@ -203,7 +211,7 @@ async def get_metadata(
 
             stdout, _ = await proc.communicate()
             if proc.returncode != 0:
-                log.fatal("Error from fatfind %s", nick)
+                log.fatal("Error from extact %s", file.path)
                 raise RuntimeError
             info = stdout.decode("UTF-8")
 
@@ -221,7 +229,6 @@ async def get_metadata(
 
 
 def list(engine: sqlalchemy.Engine) -> None:
-
     stmt = select(model.Year).order_by(model.Year.name)
     with Session(engine) as session:
         for year in session.execute(stmt).scalars():
@@ -229,8 +236,18 @@ def list(engine: sqlalchemy.Engine) -> None:
             for dataset in year.datasets:
                 if dataset.status == model.Status.EMPTY:
                     continue
-                energies = [ e.value for e in dataset.energies]
+                energies = [e.value for e in dataset.energies]
                 print(f"{dataset.name}: {energies}")
+
+
+def norm_uri(file: dict[str, Any]) -> str:
+    uri = urllib.parse.urlparse(file["uri"])
+    match = re.match(r"(.*)\.(\d+)\.(al|sl)", uri.path)
+    if match:
+        return f"{uri.scheme}://{uri.netloc}/{match.group(1)}.{match.group(2):>06s}.{match.group(3)}"
+    else:
+        return file["uri"]
+
 
 def write_json(
     engine: sqlalchemy.Engine,
@@ -250,6 +267,7 @@ def write_json(
                     "primary": d["group1"],
                 }
 
+
     stmt1 = select(model.Year).order_by(model.Year.name)
     with Session(engine) as session:
         for year in session.execute(stmt1).scalars():
@@ -257,12 +275,18 @@ def write_json(
             for dataset in year.datasets:
                 if dataset.status == model.Status.EMPTY:
                     continue
+                if dataset.first_year != year.name:
+                    continue
+                if dataset.name in [ 'hadr99_e1', 'alld99_e1', 'xs_qqnn_e206.7_f00_1l_s1']:
+                    continue
                 info = {
                     "accelerator": "CERN-LEP",
                     "collaboration": {"name": "DELPHI"},
-                    "collision_information": collision_information(dataset.name, dataset.energies),
+                    "collision_information": collision_information(
+                        dataset.name, dataset.energies
+                    ),
                     "collections": ["DELPHI"],
-                    "date_created": year.name,
+                    "date_created": [year.name],
                     "date_published": "2024",
                     "distribution": {
                         "formats": [dataset.format],
@@ -280,9 +304,14 @@ def write_json(
                     },
                     "publisher": "CERN Open Data Portal",
                     "type": {"primary": "Dataset"},
-                    "recid": dataset.recid,
+                    "recid": str(dataset.recid),
                     # "doi": f"10.7483/OPENDATA.DELPHI.FAKE.{nr}",
-                    "methodology": methodology(dataset.format, dataset.first_year, dataset.data, dataset.version),
+                    "methodology": methodology(
+                        dataset.format,
+                        dataset.first_year,
+                        dataset.data,
+                        dataset.version,
+                    ),
                     "usage": usage(dataset.format),
                 }
 
@@ -304,6 +333,7 @@ def write_json(
                                 "checksum": f"adler32:{file.checksum:08x}",
                             },
                         )
+                    info_files.sort(key=norm_uri)
                     info["files"] = info_files
                 else:
                     info_relations = []
@@ -312,7 +342,7 @@ def write_json(
                             {
                                 "description": dataset1.description,
                                 # "doi": dataset1.doi,
-                                "recid": dataset1.recid,
+                                "recid": str(dataset1.recid),
                                 "title": dataset1.title,
                                 "type": "isParentOf",
                             },
@@ -321,23 +351,26 @@ def write_json(
                     info["relations"] = info_relations
 
                 all_datasets.append(info)
+                # session.commit()
 
             log.info("Writing %s", f"DELPHI-datasets-{year.name}.json")
             with open(outdir / f"DELPHI-datasets-{year.name}.json", "w") as out:
                 json.dump(all_datasets, out, indent=4)
 
+        # with open(outdir / "recids.json", "w") as out:
+        #     json.dump(recid_info, out, indent=4)
+
 
 def collision_information(name: str, energies: list[str]) -> dict[str, str]:
-    """Energy slots for datasets
-    """
-    info = { "type": "e+e-"}
-    if not name.startswith("rawd") and len(energies):    
+    """Energy slots for datasets"""
+    info = {"type": "e+e-"}
+    if not name.startswith("rawd") and len(energies):
         energy = int(energies[0].value)
         if energy >= 89 and energy <= 94:
             info["energy"] = "89-94 GeV"
-        elif energy >= 130 and energy <=140:
+        elif energy >= 130 and energy <= 140:
             info["energy"] = "130-140 GeV"
-        elif energy >= 161 and energy <= 174: 
+        elif energy >= 161 and energy <= 174:
             info["energy"] = "161-174 GeV"
         elif energy >= 181 and energy <= 210 or name == "xs_clsp_e189_w98_1l_a1":
             info["energy"] = "181-210 GeV"
@@ -564,28 +597,31 @@ def get_processing(year: str, version: str) -> str:
     else:
         return f"v{year}{version}"
 
+
 def methodology(format: str, year: str, data: bool, version: str) -> dict[str, str]:
     """Description of the data."""
-    
+
     if data:
-        description = f"The data was recorded by the DELPHI detector in the year {year}."
+        description = (
+            f"The data was recorded by the DELPHI detector in the year {year}."
+        )
     else:
         description = f"The data was simulated by DELSIM for the DELPHI detector configuration of the year {year}."
-        
+
     if format == "DSTO":
         description += f" It was then reconstruced by the detector reconstuction program DELANA (Version {version})."
-    elif format in ['SHORT', 'LONG', 'XSHORT']:
+    elif format in ["SHORT", "LONG", "XSHORT"]:
         description += (
-                        " It was then reconstruced by the detector reconstuction program DELANA and the "
-                        f"physics DST program PXDST (Version {version})."
+            " It was then reconstruced by the detector reconstuction program DELANA and the "
+            f"physics DST program PXDST (Version {version})."
         )
 
-        
-    return { "description": description }
-        
+    return {"description": description}
+
+
 def usage(format: str) -> dict[str, str | dict[str, str]]:
     """Usage of the data."""
-    
+
     if format == "RAWD":
         description = "The RAW data is availabe for processing with the event server for visaltion with DELGRA."
         links = [
@@ -596,45 +632,53 @@ def usage(format: str) -> dict[str, str | dict[str, str]]:
             {
                 "description": "The DELPHI Event Display Manual",
                 "url": "/record/80503",
-            },          
+            },
         ]
     elif format == "DSTO":
-        description = "The detector data is availabe for visaltion with DELGRA",
+        description = "The detector data is availabe for visaltion with DELGRA"
         links = [
             {
                 "description": "The DELPHI Event Display Manual",
                 "url": "/record/80503",
             }
-        ]    
-    elif format in [ "SHORT", "LONG", "XSHORT"]:
-        description = f"The DST data in the {format} format is availabe for anaysis.",
-        links = [{
-            "description": "Getting started with DELPHI data",
-            "url": "/docs/delphi-getting-started",
-        }, {
-            "description": "DELPHI skeleton analysis framework manual",
-            "url": "/record/80502",
-        }]
+        ]
+    elif format in ["SHORT", "LONG", "XSHORT"]:
+        description = f"The DST data in the {format} format is availabe for anaysis."
+        links = [
+            {
+                "description": "Getting started with DELPHI data",
+                "url": "/docs/delphi-getting-started",
+            },
+            {
+                "description": "DELPHI skeleton analysis framework manual",
+                "url": "/record/80502",
+            },
+        ]
         if format == "SHORT":
-            links.append({
-                "description": "DELPHI \"short DST\" manual",
-                "url": "/record/80506",
-            })
+            links.append(
+                {
+                    "description": 'DELPHI "short DST" manual',
+                    "url": "/record/80506",
+                }
+            )
         elif format == "LONG":
-            links.append({
-                "description": "DELPHI \"full DST\" manuals",
-                "url": "/record/80504",
-            })
+            links.append(
+                {
+                    "description": 'DELPHI "full DST" manuals',
+                    "url": "/record/80504",
+                }
+            )
         elif format == "XSHORT":
-            links.append({
-                "description": "DELPHI \"extended short DST\" manual",
-                "url": "/record/80505",
-            })
+            links.append(
+                {
+                    "description": 'DELPHI "extended short DST" manual',
+                    "url": "/record/80505",
+                }
+            )
     else:
         log.error("Unexpected format %s", format)
-            
-    return { 
-            "description": description,
-            "links": links,
-    }           
-    
+
+    return {
+        "description": description,
+        "links": links,
+    }

@@ -131,6 +131,7 @@ def metadata(dbpath: pathlib.Path, sql_echo: bool) -> None:
 
     asyncio.run(tools.extract_metadata(engine))
 
+
 @cli.command()
 @click.option(
     "--dbpath",
@@ -142,12 +143,12 @@ def metadata(dbpath: pathlib.Path, sql_echo: bool) -> None:
 @click.option(
     "-s", "--sql-echo", is_flag=True, default=False, help="Enable DB SQL echo"
 )
-def list(
-    dbpath: pathlib.Path, sql_echo: bool) -> None:
+def list(dbpath: pathlib.Path, sql_echo: bool) -> None:
     """Write JSON files for OpenData Portal."""
     engine = create_engine(f"sqlite:///{dbpath}", echo=sql_echo)
 
     tools.list(engine)
+
 
 @cli.command()
 @click.option(
